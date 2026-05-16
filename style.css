@@ -1,0 +1,108 @@
+/* html, body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    text-align: justify;
+}
+
+#box{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+#header{
+    background-color: #dfd5d5;
+    padding: 20px;
+}
+
+#menubar{
+    background-color: #e4e4e4;
+    margin: auto;
+}
+
+.teksmenu{
+    text-decoration: none;
+}
+
+#konten{
+    padding: 20px;
+}
+
+#footer{
+    background-color: #999494;
+    padding: 20px;
+} */
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #ffe4ec, #fff0f5);
+    color: #5a3b44;
+}
+
+/* Paragraf */
+p{
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Container utama */
+#box{
+    width: 1000px;
+    height: auto;
+    margin: 40px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+/* Header */
+#header{
+    background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
+    padding: 25px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Menu bar */
+#menubar{
+    background-color: #ffd6e0;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #f3b6c1;
+}
+
+/* Teks menu */
+.teksmenu{
+    text-decoration: none;
+    color: #a0526d;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.teksmenu:hover{
+    color: #ff4d88;
+}
+
+/* Konten */
+#konten{
+    padding: 25px;
+}
+
+/* Footer */
+#footer{
+    background-color: #ffccd5;
+    padding: 20px;
+    text-align: center;
+    color: #7a4e57;
+    font-size: 14px;
+}
